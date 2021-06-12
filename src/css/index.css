@@ -1,0 +1,25 @@
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --background-theme: #eef0f1 ;
+    --bs-primary: #3b49df !important;
+    --header-theme: white;
+    --loading-background-color: #eef0f1;
+}
+
+body[theme="dark"] {
+    --background-theme: rgb(66, 66, 66);
+    --bs-primary: black !important;
+    --header-theme: rgb(36, 36, 36);
+    --color: white;
+    --loading-background-color: #212529;
+
+}
+
+body {
+    background-color: var(--background-theme) !important;
+}
